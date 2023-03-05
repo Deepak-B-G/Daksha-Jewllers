@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Current Prices of Gold and Silver in India</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 20px;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			margin: 50px 0;
+		}
+		.price {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border: 1px solid #ddd;
+			padding: 20px;
+			width: 250px;
+			height: 150px;
+		}
+		.price h2 {
+			font-size: 24px;
+			margin: 0;
+		}
+		.price p {
+			font-size: 20px;
+			margin: 10px 0 0;
+		}
+		.price span {
+			font-size: 14px;
+			color: #888;
+		}
+	</style>
+</head>
+<body>
+	<h1>Current Prices of Gold and Silver in India</h1>
+	<div class="container">
+		<div class="price">
+			<h2>Gold</h2>
+			<p>₹50,000</p>
+			<span>per 10 grams</span>
+		</div>
+		<div class="price">
+			<h2>Silver</h2>
+			<p>₹70</p>
+			<span>per gram</span>
+		</div>
+	</div>
+	<marquee behavior="scroll" direction="left" scrollamount="5">
+		<p style="font-size: 18px; color: #f00; text-align: center;">
+			Note: Prices are updated every 15 minutes and may vary from the above figures.
+		</p>
+	</marquee>
+</body>
+</html>
